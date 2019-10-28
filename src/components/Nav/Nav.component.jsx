@@ -24,7 +24,7 @@ class Nav extends React.Component {
 
 	componentDidMount() {
 		window.addEventListener('resize', () => {
-			if (window.innerWidth > 768) {
+			if (window.innerWidth > 1023) {
 				this.setState((prevState) => {
 					return (prevState.displayMenu = true);
 				});
