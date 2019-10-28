@@ -1,31 +1,74 @@
 import React from 'react';
-import './nav.styles.css';
+import './Nav.styles.css';
 import logo from '../../images/logo-bookmark.svg';
 
-function Nav() {
-	return (
-		<div className="navContainer">
-			<div className="logo">
-				<img src={logo} />
+class Nav extends React.Component {
+	constructor() {
+		super();
+		this.state = {
+			displayMenu: true
+		};
+	}
+	setStyle = () => {
+		if (!this.state.displayMenu) {
+			return {
+				display: 'none'
+			};
+		} else {
+			return {
+				display: 'block'
+			};
+		}
+	};
+
+	componentDidMount() {
+		window.addEventListener('resize', () => {
+			if (window.innerWidth > 768) {
+				this.setState((prevState) => {
+					return (prevState.displayMenu = true);
+				});
+			} else {
+				this.setState((prevState) => {
+					return (prevState.displayMenu = false);
+				});
+			}
+		});
+	}
+
+	toggleMenu = () => {
+		console.log('menu button clicked');
+		this.setState((prevState) => {
+			return (prevState.displayMenu = !prevState.displayMenu);
+		});
+	};
+	render() {
+		return (
+			<div className="navContainer">
+				<div className="logo">
+					<img src={logo} />
+				</div>
+				<button className="responsive-menu" onClick={this.toggleMenu}>
+					Menu
+				</button>
+				<nav style={this.setStyle()}>
+					<ul>
+						<li>
+							<a href="#">Features</a>
+						</li>
+						<li>
+							<a href="#">Pricing</a>
+						</li>
+						<li>
+							<a href="#">Contact</a>
+						</li>
+						<li>
+							<a href="#" />Login
+						</li>
+					</ul>
+				</nav>
 			</div>
-			<nav>
-				<ul>
-					<li>
-						<a href="#">Features</a>
-					</li>
-					<li>
-						<a href="#">Pricing</a>
-					</li>
-					<li>
-						<a href="#">Contact</a>
-					</li>
-					<li>
-						<a href="#" />Login
-					</li>
-				</ul>
-			</nav>
-		</div>
-	);
+		);
+	}
 }
 
 export default Nav;

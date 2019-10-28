@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 import './fonts/fonts.css';
-import Nav from './components/nav/nav.component';
-import CallToAction from './components/cta/cta.component';
-import Features from './components/features/features.component';
-import Download from './components/download/download.component';
-import Faqs from './components/faqs/faqs.component';
+import Nav from './components/Nav/Nav.component';
+import CallToAction from './components/Cta/Cta.component';
+import Features from './components/Features/Features.component';
+import Download from './components/Download/Download.component';
+import Faqs from './components/Faqs/Faqs.component';
 
 class App extends React.Component {
 	render() {

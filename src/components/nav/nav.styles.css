@@ -14,6 +14,7 @@
 }
 
 nav {
+	display: block;
 	align-content: flex-end;
 }
 
@@ -37,5 +38,33 @@ nav a:hover {
 	color: var(--soft-red);
 }
 
+.responsive-menu {
+	display: none;
+}
+
 @media only screen and (max-width: 768px) {
+	.responsive-menu {
+		display: block;
+		position: absolute;
+		top: 35px;
+		right: 20px;
+		z-index: 999;
+	}
+
+	nav {
+		position: absolute;
+		right: 0px;
+		top: 0px;
+		background-color: #f2f2f2;
+		text-align: center;
+		height: 100%;
+	}
+
+	nav ul {
+		padding: 60px 50px;
+	}
+
+	nav ul li {
+		display: block;
+	}
 }
