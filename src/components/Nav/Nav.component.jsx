@@ -6,7 +6,8 @@ class Nav extends React.Component {
 	constructor() {
 		super();
 		this.state = {
-			displayMenu: true
+			displayMenu: true,
+			display: 'block'
 		};
 	}
 	setStyle = () => {
@@ -47,7 +48,9 @@ class Nav extends React.Component {
 					<img src={logo} alt="logo" />
 				</div>
 				<button className="responsive-menu" onClick={this.toggleMenu}>
-					Menu
+					<div className="hOne" />
+					<div className="hTwo" />
+					<div className="hThree" />
 				</button>
 				<nav style={this.setStyle()}>
 					<ul>
