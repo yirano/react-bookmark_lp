@@ -68,9 +68,29 @@ nav a:hover {
 
 	nav ul li {
 		display: block;
+		border-bottom: 1px solid var(--grayish-blue);
+		padding: 20px;
+		color: #f2f2f2;
+	}
+
+	nav ul li:nth-last-child(1) {
+		border: none;
 	}
 
 	nav ul li a {
-		color: var(--grayish-blue);
+		color: #f2f2f2;
+	}
+
+	.login {
+		padding: 10px 60px;
+		border: 2px solid #f2f2f2;
+		border-radius: 4px;
+	}
+
+	nav a,
+	nav a:active,
+	nav a:visited {
+		text-decoration: none;
+		color: #f2f2f2;
 	}
 }
