@@ -36,7 +36,6 @@ class Nav extends React.Component {
 	}
 
 	toggleMenu = () => {
-		console.log('menu button clicked');
 		this.setState((prevState) => {
 			return (prevState.displayMenu = !prevState.displayMenu);
 		});
@@ -45,7 +44,7 @@ class Nav extends React.Component {
 		return (
 			<div className="navContainer">
 				<div className="logo">
-					<img src={logo} />
+					<img src={logo} alt="logo" />
 				</div>
 				<button className="responsive-menu" onClick={this.toggleMenu}>
 					Menu
@@ -53,16 +52,16 @@ class Nav extends React.Component {
 				<nav style={this.setStyle()}>
 					<ul>
 						<li>
-							<a href="#">Features</a>
+							<a href="/">Features</a>
 						</li>
 						<li>
-							<a href="#">Pricing</a>
+							<a href="/">Pricing</a>
 						</li>
 						<li>
-							<a href="#">Contact</a>
+							<a href="/">Contact</a>
 						</li>
 						<li>
-							<a href="#" className="login">
+							<a href="/" className="login">
 								<button>Login</button>
 							</a>
 						</li>
