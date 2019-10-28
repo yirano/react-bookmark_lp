@@ -1,0 +1,41 @@
+:root {
+	--soft-blue: hsl(231, 69%, 60%);
+	--soft-red: hsl(0, 94%, 66%);
+	--grayish-blue: hsl(229, 8%, 60%);
+	--very-dark-blue: hsl(229, 31%, 21%);
+}
+
+.navContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 30px 50px;
+	font-family: 'Rubik', sans-serif;
+}
+
+nav {
+	align-content: flex-end;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px 10px;
+	font-size: 0.9em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+nav a,
+nav a:active,
+nav a:visited {
+	text-decoration: none;
+	color: var(--very-dark-blue);
+}
+
+nav a:hover {
+	color: var(--soft-red);
+}
+
+@media only screen and (max-width: 768px) {
+}

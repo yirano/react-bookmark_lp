@@ -1,10 +1,12 @@
 import React from 'react';
+import './nav.styles.css';
+import logo from '../../images/logo-bookmark.svg';
 
 function Nav() {
 	return (
 		<div className="navContainer">
-			<div className="headerLogo">
-				<img src="../../images/logo-bookmark.svg" />
+			<div className="logo">
+				<img src={logo} />
 			</div>
 			<nav>
 				<ul>
