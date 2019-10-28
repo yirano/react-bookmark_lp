@@ -64,8 +64,8 @@ class Nav extends React.Component {
 							<a href="/">Contact</a>
 						</li>
 						<li>
-							<a href="/" className="login">
-								<button>Login</button>
+							<a href="/">
+								<button className="login">Login</button>
 							</a>
 						</li>
 					</ul>
