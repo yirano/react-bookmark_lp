@@ -8,7 +8,11 @@ import Faqs from './components/faqs/faqs.component';
 
 class App extends React.Component {
 	render() {
-		return <div />;
+		return (
+			<div>
+				<Nav />
+			</div>
+		);
 	}
 }
 
