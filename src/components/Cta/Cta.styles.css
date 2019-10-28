@@ -1,0 +1,74 @@
+.section-1 {
+	font-weight: 400;
+	display: flex;
+}
+
+.purpleBox {
+	height: 260px;
+	width: 400px;
+	border-top-left-radius: 200px;
+	border-bottom-left-radius: 200px;
+	position: absolute;
+	top: 40%;
+	right: 0;
+	background-color: var(--soft-blue);
+	z-index: -999;
+}
+
+.header-button-wrapper button {
+	border: 2px solid var(--very-dark-blue);
+	background-color: transparent;
+	padding: 8px 15px;
+}
+
+.section-1 h1 {
+	font-weight: 500;
+}
+
+.leftContent {
+	width: 50%;
+}
+
+.rightContent {
+	position: relative;
+	width: 50%;
+}
+
+.rightContent img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.section-1 .caption {
+	color: var(--grayish-blue);
+	font-size: 0.8em;
+	line-height: 1.5em;
+}
+
+.header-button-wrapper button {
+	margin-right: 10px;
+	padding: 10px 10px;
+	border: 2px solid transparent;
+	border-radius: 3px;
+	box-shadow: 0px 5px 10px rgba(199, 198, 238, 0.664);
+	font-weight: 500;
+	font-size: 0.6em;
+	letter-spacing: 0.1em;
+	color: var(--very-dark-blue);
+}
+
+button.purple-bg {
+	background-color: var(--soft-blue);
+	color: #fff;
+}
+
+button.purple-bg:hover {
+	border: 2px solid var(--soft-blue);
+	background-color: #fff;
+	color: var(--very-dark-blue);
+}
+
+button.grey-bg:hover {
+	border: 2px solid var(--very-dark-blue);
+	background-color: #fff;
+}
