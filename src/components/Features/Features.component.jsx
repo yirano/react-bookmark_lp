@@ -14,7 +14,6 @@ class Features extends React.Component {
 				{
 					id: 1,
 					show: true,
-					display: 'block',
 					title: 'Simple Bookmarking',
 					subtitle: 'Bookmark in one click',
 					caption:
@@ -24,7 +23,6 @@ class Features extends React.Component {
 				{
 					id: 2,
 					show: false,
-					display: 'none',
 					title: 'Speedy Searching',
 					subtitle: 'Intelligent Search',
 					caption:
@@ -34,7 +32,6 @@ class Features extends React.Component {
 				{
 					id: 3,
 					show: false,
-					display: 'none',
 					title: 'Easy Sharing',
 					subtitle: 'Share Your Bookmarks',
 					caption:
