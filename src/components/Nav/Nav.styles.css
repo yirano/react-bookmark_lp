@@ -14,7 +14,7 @@ nav {
 nav ul li {
 	list-style: none;
 	display: inline-block;
-	padding: 10px 10px;
+	padding: 10px 18px;
 	font-size: 0.6em;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
@@ -32,13 +32,21 @@ nav a:hover {
 }
 
 .login {
-	color: var(--very-dark-blue);
-	background-color: transparent;
+	color: #fff;
+	background-color: var(--soft-red);
+	padding: 10px 30px;
 	text-transform: uppercase;
 	font-size: 1em;
-	padding: 10px 40px;
-	border: 2px solid var(--very-dark-blue);
+	letter-spacing: 0.1em;
+	border: 2px solid var(--soft-red);
 	border-radius: 4px;
+	box-shadow: 0px 5px 10px rgba(199, 198, 238, 0.664);
+}
+
+button.login:hover {
+	color: var(--soft-red);
+	border: 2px solid var(--soft-red);
+	background-color: #fff;
 }
 
 .responsive-menu {
