@@ -1,7 +1,7 @@
 import React from 'react';
 import './Features.styles.css';
 import SlideButtons from './features-components/SlideButtons.component';
-import { SlideContent } from './features-components/SlideContent';
+import SlideContent from './features-components/SlideContent';
 import firstTab from '../../images/illustration-features-tab-1.svg';
 import secondTab from '../../images/illustration-features-tab-2.svg';
 import thirdTab from '../../images/illustration-features-tab-3.svg';
