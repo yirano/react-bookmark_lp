@@ -48,16 +48,19 @@ button.currentSlide {
 }
 
 .slideContent {
-	justify-content: space-between;
+	justify-content: space-evenly;
 }
 
 .slideImg,
 .slideWordWrap {
-	width: 45%;
+	width: 50%;
+	align-self: center;
+	margin: 0 28px;
 }
 
 .slideImg img {
-	width: 40vw;
+	max-width: 46vw;
+	max-height: auto;
 }
 
 .slideWordWrap {
