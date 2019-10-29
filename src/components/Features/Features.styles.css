@@ -42,3 +42,8 @@ button.currentSlide {
 .slide-link-wrapper button {
 	outline: none;
 }
+
+.slideContainer {
+	display: flex;
+	flex-direction: column;
+}
