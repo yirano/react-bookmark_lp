@@ -4,9 +4,9 @@ export class SlideContent extends Component {
 	render() {
 		return (
 			<div className="slideContainer">
-				{this.props.content.map(({ subtitle, id, display, caption, src }) => {
+				{this.props.content.map(({ subtitle, id, caption, src, show }) => {
 					return (
-						<div key={id} style={{ display }}>
+						<div key={id} style={{ display: show ? 'inherit' : 'none' }}>
 							<div className="slideImg">
 								<img src={src} alt="features" />
 							</div>
