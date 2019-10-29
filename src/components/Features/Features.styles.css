@@ -45,7 +45,6 @@ button.currentSlide {
 
 .slideContainer {
 	display: flex;
-	flex-direction: column;
 }
 
 .slideContent {
