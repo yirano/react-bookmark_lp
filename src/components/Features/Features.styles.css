@@ -1,3 +1,36 @@
 .section-2 {
 	display: block;
 }
+
+.sectionTwoHeader {
+	text-align: center;
+	width: 450px;
+	margin: 0 auto;
+}
+
+.slide-link-wrapper {
+	text-align: center;
+	padding: 1px 0;
+	border-bottom: 1px solid hsla(229, 8%, 60%, 0.383);
+	width: 70%;
+	margin: 30px auto;
+}
+
+.slide-link-wrapper button {
+	display: inline-block;
+	padding: 20px 20px;
+	margin: 0 16px;
+	border: 3px solid transparent;
+	font-size: 0.7em;
+	color: var(--grayish-blue);
+	letter-spacing: 0.1em;
+}
+
+button.currentSlide {
+	border-bottom: 3px solid red;
+	border-radius: 4px;
+}
+
+button.slide:focus {
+	outline: none;
+}

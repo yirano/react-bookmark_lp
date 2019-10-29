@@ -1,9 +1,35 @@
-.main {
-	padding: 0 50px 0 120px;
-}
 :root {
 	--soft-blue: hsl(231, 69%, 60%);
 	--soft-red: hsl(0, 94%, 66%);
 	--grayish-blue: hsl(229, 8%, 60%);
 	--very-dark-blue: hsl(229, 31%, 21%);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.main {
+	padding: 0 50px 0 120px;
+	height: 100%;
+}
+
+.section {
+	margin-bottom: 60px;
+}
+
+.sectionTitles {
+	font-weight: 500;
+	font-size: 2.3rem;
+}
+
+.sectionHeader {
+	font-weight: 500;
+	font-size: 1.2em;
+}
+
+.caption {
+	color: var(--grayish-blue);
+	font-size: 0.8em;
+	line-height: 1.5em;
 }
