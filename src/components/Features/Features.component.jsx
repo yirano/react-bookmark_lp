@@ -42,7 +42,11 @@ class Features extends React.Component {
 					</p>
 				</div>
 
-				<div className="slide-link-wrapper" />
+				<div className="slide-link-wrapper">
+					{this.state.slides.map(({ title, subtitle, caption }) => (
+						<SlideButtons title={title} subtitle={subtitle} caption={caption} />
+					))};
+				</div>
 			</div>
 		);
 	}
