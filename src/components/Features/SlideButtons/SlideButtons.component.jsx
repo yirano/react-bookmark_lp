@@ -1,10 +1,13 @@
 import React from 'react';
+import '../Features.styles.css';
 
 class SlideButtons extends React.Component {
 	render() {
 		return (
 			<div>
-				<button>{this.props.title}</button>
+				{this.props.item.map(({ title, id }) => {
+					return <button key={id}>{title}</button>;
+				})}
 			</div>
 		);
 	}

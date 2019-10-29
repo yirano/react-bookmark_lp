@@ -41,11 +41,8 @@ class Features extends React.Component {
 						sync between your devices so you can access them on the go.
 					</p>
 				</div>
-
 				<div className="slide-link-wrapper">
-					{this.state.slides.map(({ id, title, subtitle, caption }) => (
-						<SlideButtons key={id} title={title} subtitle={subtitle} caption={caption} />
-					))};
+					<SlideButtons item={this.state.slides} />
 				</div>
 			</div>
 		);
