@@ -6,7 +6,6 @@ class CallToAction extends React.Component {
 	render() {
 		return (
 			<div className="section-1">
-				<div className="purpleBox" />
 				<div className="leftContent">
 					<h1>A Simple Bookmark Manager</h1>
 					<p className="caption">
@@ -19,6 +18,7 @@ class CallToAction extends React.Component {
 					</div>
 				</div>
 				<div className="rightContent">
+					<div className="purpleBox" />
 					<img src={heroImage} alt="Illustration Hero" />
 				</div>
 			</div>
