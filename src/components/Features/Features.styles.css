@@ -26,6 +26,7 @@
 	font-size: 0.7em;
 	color: var(--grayish-blue);
 	letter-spacing: 0.1em;
+	background-color: transparent;
 }
 
 .slide-link-wrapper button:hover {
