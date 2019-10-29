@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Features.styles.css';
+import { getBOMEncoding } from 'whatwg-encoding';
 
 class SlideButtons extends React.Component {
 	render() {
