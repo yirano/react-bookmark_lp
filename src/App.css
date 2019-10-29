@@ -33,3 +33,7 @@
 	font-size: 0.8em;
 	line-height: 1.5em;
 }
+
+button:hover {
+	cursor: pointer;
+}
