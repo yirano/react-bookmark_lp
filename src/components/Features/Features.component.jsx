@@ -43,8 +43,8 @@ class Features extends React.Component {
 				</div>
 
 				<div className="slide-link-wrapper">
-					{this.state.slides.map(({ title, subtitle, caption }) => (
-						<SlideButtons title={title} subtitle={subtitle} caption={caption} />
+					{this.state.slides.map(({ id, title, subtitle, caption }) => (
+						<SlideButtons key={id} title={title} subtitle={subtitle} caption={caption} />
 					))};
 				</div>
 			</div>
