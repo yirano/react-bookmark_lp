@@ -1,6 +1,10 @@
 import React from 'react';
 import './Features.styles.css';
-import SlideButtons from './SlideButtons/SlideButtons.component';
+import SlideButtons from './features-components/SlideButtons.component';
+import SlideContent from './features-components/SlideContent';
+import firstTab from '../../images/illustration-features-tab-1.svg';
+import secondTab from '../../images/illustration-features-tab-2.svg';
+import thirdTab from '../../images/illustration-features-tab-3.svg';
 
 class Features extends React.Component {
 	constructor() {
@@ -9,24 +13,30 @@ class Features extends React.Component {
 			slides: [
 				{
 					id: 1,
+					show: true,
 					title: 'Simple Bookmarking',
 					subtitle: 'Bookmark in one click',
 					caption:
-						'Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.'
+						'Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.',
+					src: firstTab
 				},
 				{
 					id: 2,
+					show: false,
 					title: 'Speedy Searching',
 					subtitle: 'Intelligent Search',
 					caption:
-						'Our Powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.'
+						'Our Powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.',
+					src: secondTab
 				},
 				{
 					id: 3,
+					show: false,
 					title: 'Easy Sharing',
 					subtitle: 'Share Your Bookmarks',
 					caption:
-						'Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.'
+						'Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.',
+					src: thirdTab
 				}
 			]
 		};
@@ -44,6 +54,7 @@ class Features extends React.Component {
 				<div className="slide-link-wrapper">
 					<SlideButtons item={this.state.slides} />
 				</div>
+				<SlideContent content={this.state.slides} />
 			</div>
 		);
 	}
