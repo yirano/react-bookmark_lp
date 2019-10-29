@@ -1,6 +1,7 @@
 import React from 'react';
 import './Features.styles.css';
-import SlideButtons from './SlideButtons/SlideButtons.component';
+import SlideButtons from './features-components/SlideButtons.component';
+import { SlideContent } from './features-components/SlideContent';
 
 class Features extends React.Component {
 	constructor() {
@@ -9,6 +10,8 @@ class Features extends React.Component {
 			slides: [
 				{
 					id: 1,
+					show: true,
+					display: 'block',
 					title: 'Simple Bookmarking',
 					subtitle: 'Bookmark in one click',
 					caption:
@@ -16,6 +19,8 @@ class Features extends React.Component {
 				},
 				{
 					id: 2,
+					show: false,
+					display: 'none',
 					title: 'Speedy Searching',
 					subtitle: 'Intelligent Search',
 					caption:
@@ -23,6 +28,8 @@ class Features extends React.Component {
 				},
 				{
 					id: 3,
+					show: false,
+					display: 'none',
 					title: 'Easy Sharing',
 					subtitle: 'Share Your Bookmarks',
 					caption:
@@ -44,6 +51,7 @@ class Features extends React.Component {
 				<div className="slide-link-wrapper">
 					<SlideButtons item={this.state.slides} />
 				</div>
+				<SlideContent content={this.state.slides} />
 			</div>
 		);
 	}
