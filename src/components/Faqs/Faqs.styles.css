@@ -20,3 +20,7 @@
 .faqsContent:nth-last-child(1) {
 	border-bottom: 1px solid hsla(229, 8%, 60%, 0.28);
 }
+
+.hide {
+	display: none;
+}
