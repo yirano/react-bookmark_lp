@@ -6,7 +6,7 @@ class Nav extends React.Component {
 	constructor() {
 		super();
 		this.state = {
-			displayMenu: true,
+			displayMenu: false,
 			display: 'block'
 		};
 	}
@@ -34,6 +34,17 @@ class Nav extends React.Component {
 				});
 			}
 		});
+		window.addEventListener('load', () => {
+			if (window.innerWidth > 1023) {
+				this.setState((prevState) => {
+					return (prevState.displayMenu = true);
+				});
+			} else {
+				this.setState((prevState) => {
+					return (prevState.displayMenu = false);
+				});
+			}
+		});
 	}
 
 	toggleMenu = () => {
@@ -41,6 +52,7 @@ class Nav extends React.Component {
 			return (prevState.displayMenu = !prevState.displayMenu);
 		});
 	};
+
 	render() {
 		return (
 			<div className="navContainer">

@@ -41,6 +41,11 @@ class Features extends React.Component {
 			]
 		};
 	}
+
+	displaySlides = () => {
+		console.log('entered function');
+	};
+
 	render() {
 		return (
 			<div className="section-2 section">
@@ -52,7 +57,7 @@ class Features extends React.Component {
 					</p>
 				</div>
 				<div className="slide-link-wrapper">
-					<SlideButtons item={this.state.slides} />
+					<SlideButtons item={this.state.slides} onClick={this.displaySlides} />
 				</div>
 				<SlideContent content={this.state.slides} />
 			</div>
