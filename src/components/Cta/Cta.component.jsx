@@ -5,7 +5,7 @@ import heroImage from '../../images/illustration-hero.svg';
 class CallToAction extends React.Component {
 	render() {
 		return (
-			<div className="section-1">
+			<div className="section-1 section">
 				<div className="leftContent">
 					<h1>A Simple Bookmark Manager</h1>
 					<p className="caption">
