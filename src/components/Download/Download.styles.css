@@ -1,0 +1,17 @@
+.card-wrapper {
+	display: flex;
+	height: 344px;
+	justify-content: center;
+}
+
+.cardOne {
+	align-self: flex-start;
+}
+
+.cardTwo {
+	align-self: center;
+}
+
+.cardThree {
+	align-self: flex-end;
+}

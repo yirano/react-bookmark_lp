@@ -54,8 +54,8 @@ class Features extends React.Component {
 	render() {
 		return (
 			<div className="section-2 section">
-				<div className="sectionTwoHeader">
-					<h3 className="sectionHeader">Features</h3>
+				<div className="sectionHeader">
+					<h3>Features</h3>
 					<p className="caption">
 						Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks
 						sync between your devices so you can access them on the go.
