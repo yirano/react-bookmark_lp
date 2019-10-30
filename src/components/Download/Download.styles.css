@@ -2,6 +2,7 @@
 	display: flex;
 	height: 344px;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .cardOne {
@@ -20,7 +21,7 @@
 	min-width: 213px;
 	max-width: 213px;
 	text-align: center;
-	margin: 0 14px;
+	margin: 10px 14px;
 	padding: 29px 0 19px;
 	border-radius: 6px;
 	box-shadow: 0px 5px 10px rgba(199, 198, 238, 0.364);
