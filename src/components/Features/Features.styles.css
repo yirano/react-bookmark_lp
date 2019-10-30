@@ -34,6 +34,9 @@
 	color: var(--grayish-blue);
 	letter-spacing: 0.1em;
 	background-color: transparent;
+	outline: none;
+	border: 0px solid transparent;
+	border-bottom: 3px solid transparent;
 }
 
 .slide-link-wrapper button:hover {
@@ -42,12 +45,8 @@
 }
 
 button.currentSlide {
-	border: 0px solid #fff;
+	border: 0px solid transparent;
 	border-bottom: 3px solid red;
-}
-
-.slide-link-wrapper button {
-	outline: none;
 }
 
 .slideContainer {
