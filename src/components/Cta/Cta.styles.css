@@ -79,11 +79,6 @@ button.grey-bg:hover {
 }
 
 @media only screen and (max-width: 856px) {
-	.main {
-		padding: 0 30px;
-		margin: 0;
-	}
-
 	.section-1 {
 		flex-direction: column-reverse;
 	}
