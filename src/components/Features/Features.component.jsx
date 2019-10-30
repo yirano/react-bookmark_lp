@@ -7,8 +7,8 @@ import secondTab from '../../images/illustration-features-tab-2.svg';
 import thirdTab from '../../images/illustration-features-tab-3.svg';
 
 class Features extends React.Component {
-	constructor() {
-		super();
+	constructor(props) {
+		super(props);
 		this.state = {
 			slides: [
 				{
@@ -42,8 +42,8 @@ class Features extends React.Component {
 		};
 	}
 
-	displaySlides = () => {
-		console.log('entered function');
+	displaySlides = (id) => {
+		console.log(id);
 	};
 
 	render() {
