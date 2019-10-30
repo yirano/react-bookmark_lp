@@ -7,7 +7,12 @@ class SlideButtons extends React.Component {
 			<div>
 				{this.props.item.map(({ title, id }) => {
 					return (
-						<button key={id} onClick={() => id}>
+						<button
+							key={id}
+							onClick={() => {
+								this.props.onClick(id);
+							}}
+						>
 							{title}
 						</button>
 					);
