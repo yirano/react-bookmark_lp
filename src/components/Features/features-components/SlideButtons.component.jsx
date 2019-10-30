@@ -4,7 +4,7 @@ import '../Features.styles.css';
 class SlideButtons extends React.Component {
 	render() {
 		return (
-			<div>
+			<div className="slide-link-wrapper">
 				{this.props.item.map(({ title, id }) => {
 					return (
 						<button
