@@ -45,12 +45,8 @@ class Features extends React.Component {
 	displaySlides = (id) => {
 		console.log(id);
 		this.setState((prevState) => {
-			prevState.slides.map((item) => {
-				return (item.show = false);
-			});
-
 			return prevState.slides.map((item) => {
-				return item.id === id ? (item.show = true) : false;
+				return item.id === id ? (item.show = true) : (item.show = false);
 			});
 		});
 	};
