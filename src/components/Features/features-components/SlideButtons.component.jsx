@@ -12,7 +12,7 @@ class SlideButtons extends React.Component {
 							onClick={() => {
 								this.props.onClick(id);
 							}}
-							className={show == true ? 'currentSlide' : ''}
+							className={show === true ? 'currentSlide' : ''}
 						>
 							{title}
 						</button>
