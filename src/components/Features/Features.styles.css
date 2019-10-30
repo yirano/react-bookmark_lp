@@ -1,3 +1,13 @@
+@keyframes opac {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
 .section-2 {
 	display: block;
 }
@@ -56,6 +66,11 @@ button.currentSlide {
 	width: 50%;
 	align-self: center;
 	margin: 0 28px;
+}
+
+.slideImg img,
+.slideWordWrap {
+	animation: opac 200ms ease-in;
 }
 
 .slideImg img {
