@@ -3,6 +3,7 @@ import './Download.styles.css';
 import logoChrome from '../../images/logo-chrome.svg';
 import logoFirefox from '../../images/logo-firefox.svg';
 import logoOpera from '../../images/logo-opera.svg';
+import dots from '../../images/bg-dots.svg';
 
 class Download extends React.Component {
 	render() {
@@ -18,26 +19,29 @@ class Download extends React.Component {
 				</div>
 
 				<div className="card-wrapper">
-					<div className="cardOne">
+					<div className="cardOne card">
 						<img src={logoChrome} alt="Chrome Logo" />
 						<h4>Add to Chrome</h4>
 						<p className="card-caption">Minimum version 62</p>
+						<img className="bgCircle" src={dots} alt="dotted border" />
 						<button className="purple-bg">Add &amp; Install Extension</button>
 					</div>
 
-					<div className="cardTwo">
+					<div className="cardTwo card">
 						<img src={logoFirefox} alt="Firefox Logo" />
 
 						<h4>Add to Firefox</h4>
 						<p className="card-caption">Minimum version 55</p>
+						<img className="bgCircle" src={dots} alt="dotted border" />
 						<button className="purple-bg">Add &amp; Install Extension</button>
 					</div>
 
-					<div className="cardThree">
+					<div className="cardThree card">
 						<img src={logoOpera} alt="Opera Logo" />
 
 						<h4>Add to Opera</h4>
-						<div className="card-caption">Minimum version 46</div>
+						<p className="card-caption">Minimum version 46</p>
+						<img className="bgCircle" src={dots} alt="dotted border" />
 						<button className="purple-bg">Add &amp; Install Extension</button>
 					</div>
 				</div>
