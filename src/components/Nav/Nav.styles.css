@@ -99,6 +99,7 @@ button.login:hover {
 
 	.login {
 		border-color: #f2f2f2;
+		box-shadow: none;
 	}
 
 	nav a,
