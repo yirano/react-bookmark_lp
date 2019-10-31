@@ -16,7 +16,7 @@ export class Footer extends Component {
 					<div>
 						<form>
 							<label htmlFor="email" />
-							<input type="email" placeholder="example@email.com" />
+							<input type="email" placeholder="Enter your email address" />
 							<button className="contactUs">Contact Us</button>
 						</form>
 					</div>

@@ -4,12 +4,11 @@ footer {
 	background-color: var(--soft-blue);
 	margin: 0;
 	text-align: center;
-	padding-top: 40px;
 	color: #f2f2f2;
 }
 
 .footerTop {
-	padding: 0 30px;
+	padding: 40px 20px 60px 20px;
 }
 
 .footerCaption {
@@ -35,11 +34,16 @@ footer {
 }
 
 input[type=email] {
-	padding: 9px 15px;
+	padding: 15px 15px;
 	min-width: 300px;
 	border: none;
 	border-radius: 4px;
 	outline: none;
+	font-size: 0.9rem;
+}
+
+::placeholder {
+	color: #afafafbe;
 }
 
 input[type=email]:invalid {
@@ -50,9 +54,7 @@ input[type=email]:invalid {
 	display: flex;
 	background-color: var(--very-dark-blue);
 	width: 100%;
-	min-height: 70px;
-	padding: 20px 0 50px 0;
-	margin-top: 40px;
+	padding: 13px 0 9px 0;
 }
 
 .footerBottom ul {
@@ -63,7 +65,7 @@ input[type=email]:invalid {
 
 .footerBottom a {
 	color: #f2f2f2;
-	font-size: 0.6em;
+	font-size: 0.66em;
 	padding-right: 40px;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -85,6 +87,7 @@ input[type=email]:invalid {
 @media only screen and (max-width: 768px) {
 	.footerBottom {
 		flex-direction: column;
+		padding-bottom: 40px;
 	}
 
 	.links {
