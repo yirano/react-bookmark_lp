@@ -34,12 +34,12 @@ footer {
 }
 
 input[type=email] {
-	padding: 15px 15px;
+	padding: 13px 15px;
 	min-width: 300px;
 	border: none;
 	border-radius: 4px;
 	outline: none;
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 }
 
 ::placeholder {
