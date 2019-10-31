@@ -55,6 +55,7 @@ button.currentSlide {
 
 .slideContent {
 	justify-content: space-evenly;
+	margin: 0 auto;
 }
 
 .slideImg,
@@ -70,7 +71,8 @@ button.currentSlide {
 }
 
 .slideImg img {
-	max-width: 46vw;
+	min-width: 46%;
+	max-width: 100%;
 	max-height: auto;
 }
 
@@ -109,5 +111,15 @@ button.currentSlide {
 
 	.slideContent {
 		flex-direction: column;
+	}
+
+	.slideImg,
+	.slideWordWrap {
+		width: 100%;
+		text-align: center;
+		margin: 0;
+	}
+
+	.slideImg img {
 	}
 }

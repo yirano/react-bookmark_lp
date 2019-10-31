@@ -8,6 +8,10 @@ footer {
 	color: #f2f2f2;
 }
 
+.footerTop {
+	padding: 0 30px;
+}
+
 .footerCaption {
 	font-size: 0.6em;
 	text-transform: uppercase;
@@ -27,12 +31,12 @@ footer {
 	letter-spacing: 0.1em;
 	border: 2px solid var(--soft-red);
 	border-radius: 4px;
+	margin-left: 20px;
 }
 
 input[type=email] {
 	padding: 9px 15px;
 	min-width: 300px;
-	margin-right: 20px;
 	border: none;
 	border-radius: 4px;
 	outline: none;
@@ -47,11 +51,13 @@ input[type=email]:invalid {
 	background-color: var(--very-dark-blue);
 	width: 100%;
 	min-height: 70px;
+	padding: 20px 0 50px 0;
 	margin-top: 40px;
 }
 
 .footerBottom ul {
 	display: flex;
+	justify-content: center;
 	list-style: none;
 }
 
@@ -76,8 +82,32 @@ input[type=email]:invalid {
 	width: 20px;
 }
 
-@media only screen and (max-width: 568px) {
-	.footerBottom ul {
+@media only screen and (max-width: 768px) {
+	.footerBottom {
 		flex-direction: column;
+	}
+
+	.links {
+		flex-direction: column;
+	}
+
+	.socialLinks {
+		float: none;
+		margin: 0;
+	}
+
+	.socialLinks li {
+		padding: 0;
+	}
+
+	footer li {
+		padding: 10px 5px;
+	}
+}
+
+@media only screen and (max-width: 568px) {
+	.contactUs {
+		min-width: 300px;
+		margin: 11px 0 0 0;
 	}
 }

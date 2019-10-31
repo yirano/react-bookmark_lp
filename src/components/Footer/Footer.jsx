@@ -8,16 +8,18 @@ export class Footer extends Component {
 	render() {
 		return (
 			<footer>
-				<p className="footerCaption">35,000+ already joined</p>
+				<div className="footerTop">
+					<p className="footerCaption">35,000+ already joined</p>
 
-				<h2 className="footerHeading">Stay up-to-date with what we’re doing</h2>
+					<h2 className="footerHeading">Stay up-to-date with what we’re doing</h2>
 
-				<div>
-					<form>
-						<label htmlFor="email" />
-						<input type="email" placeholder="example@email.com" />
-						<button className="contactUs">Contact Us</button>
-					</form>
+					<div>
+						<form>
+							<label htmlFor="email" />
+							<input type="email" placeholder="example@email.com" />
+							<button className="contactUs">Contact Us</button>
+						</form>
+					</div>
 				</div>
 
 				<div className="footerBottom">
