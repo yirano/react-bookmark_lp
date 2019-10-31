@@ -9,10 +9,13 @@
 }
 
 .answer {
-	margin-top: 25px;
 	color: var(--grayish-blue);
 	line-height: 1.7em;
 	font-size: 0.94em;
+}
+
+.answer p {
+	margin-top: 25px;
 }
 
 .faqsContainer .question:hover {
