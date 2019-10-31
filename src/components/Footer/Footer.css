@@ -33,6 +33,13 @@ input[type=email] {
 	padding: 9px 15px;
 	min-width: 300px;
 	margin-right: 20px;
+	border: none;
+	border-radius: 4px;
+	outline: none;
+}
+
+input[type=email]:invalid {
+	border: 2px solid var(--soft-red);
 }
 
 .footerBottom {
