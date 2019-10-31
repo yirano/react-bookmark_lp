@@ -48,8 +48,12 @@ class Nav extends React.Component {
 	}
 
 	toggleMenu = () => {
-		const menuIcon = document.getElementById('hOne');
-		menuIcon.classList.toggle('animateMenu');
+		const hOne = document.getElementById('hOne');
+		const hTwo = document.getElementById('hTwo');
+		const hThree = document.getElementById('hThree');
+		hOne.classList.toggle('hOneAnimate');
+		hTwo.classList.toggle('hTwoAnimate');
+		hThree.classList.toggle('hThreeAnimate');
 		this.setState((prevState) => {
 			return (prevState.displayMenu = !prevState.displayMenu);
 		});
@@ -63,8 +67,8 @@ class Nav extends React.Component {
 				</div>
 				<button className="responsive-menu" onClick={this.toggleMenu}>
 					<div className="hOne" id="hOne" />
-					<div className="hTwo" />
-					<div className="hThree" />
+					<div className="hTwo" id="hTwo" />
+					<div className="hThree" id="hThree" />
 				</button>
 				<nav style={this.setStyle()}>
 					<ul>

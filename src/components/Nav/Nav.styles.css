@@ -111,16 +111,36 @@ button.login:hover {
 	.hOne,
 	.hTwo,
 	.hThree {
+		display: block;
 		position: relative;
-		border-bottom: 4px solid red;
+		border-bottom: 4px solid var(--very-dark-blue);
 		width: 22px;
 		height: 8px;
 		top: -2px;
-		transition: all 1s;
+		opacity: 1;
+		transition: all 200ms;
 	}
 
-	.animateMenu {
+	.hOneAnimate,
+	.hTwoAnimate {
+		border-color: #f2f2f2;
+	}
+
+	.hOneAnimate {
 		transform: rotate(45deg);
-		transition: transform 1s;
+		transition: transform 200ms;
+		top: 5px;
+		left: 1px;
+	}
+
+	.hTwoAnimate {
+		transform: rotate(-45deg);
+		top: -3px;
+		right: 2px;
+	}
+
+	.hThreeAnimate {
+		opacity: 0;
+		transition: display 200ms;
 	}
 }
