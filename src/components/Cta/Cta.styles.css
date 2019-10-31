@@ -62,22 +62,6 @@
 	color: var(--very-dark-blue);
 }
 
-button.purple-bg {
-	background-color: var(--soft-blue);
-	color: #fff;
-}
-
-button.purple-bg:hover {
-	border: 2px solid var(--soft-blue);
-	background-color: #fff;
-	color: var(--very-dark-blue);
-}
-
-button.grey-bg:hover {
-	border: 2px solid var(--very-dark-blue);
-	background-color: #fff;
-}
-
 @media only screen and (max-width: 856px) {
 	.section-1 {
 		flex-direction: column-reverse;

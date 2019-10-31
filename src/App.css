@@ -44,6 +44,23 @@
 	margin: 20px auto;
 }
 
+button.purple-bg {
+	background-color: var(--soft-blue);
+	border: 2px solid transparent;
+	color: #fff;
+}
+
+button.purple-bg:hover {
+	border: 2px solid var(--soft-blue);
+	background-color: #fff;
+	color: var(--very-dark-blue);
+}
+
+button.grey-bg:hover {
+	border: 2px solid var(--very-dark-blue);
+	background-color: #fff;
+}
+
 button:hover {
 	cursor: pointer;
 }
