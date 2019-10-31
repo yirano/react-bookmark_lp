@@ -59,6 +59,9 @@ button.login:hover {
 		z-index: 999;
 		width: 40px;
 		height: 40px;
+		background-color: transparent;
+		outline: none;
+		border: none;
 	}
 
 	nav {
@@ -108,9 +111,16 @@ button.login:hover {
 	.hOne,
 	.hTwo,
 	.hThree {
-		content: '';
-		border-bottom: 1px solid red;
-		width: 40px;
-		height: 6px;
+		position: relative;
+		border-bottom: 4px solid red;
+		width: 22px;
+		height: 8px;
+		top: -2px;
+		transition: all 1s;
+	}
+
+	.animateMenu {
+		transform: rotate(45deg);
+		transition: transform 1s;
 	}
 }

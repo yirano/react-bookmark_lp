@@ -48,6 +48,8 @@ class Nav extends React.Component {
 	}
 
 	toggleMenu = () => {
+		const menuIcon = document.getElementById('hOne');
+		menuIcon.classList.toggle('animateMenu');
 		this.setState((prevState) => {
 			return (prevState.displayMenu = !prevState.displayMenu);
 		});
@@ -60,7 +62,7 @@ class Nav extends React.Component {
 					<img src={logo} alt="logo" />
 				</div>
 				<button className="responsive-menu" onClick={this.toggleMenu}>
-					<div className="hOne" />
+					<div className="hOne" id="hOne" />
 					<div className="hTwo" />
 					<div className="hThree" />
 				</button>
