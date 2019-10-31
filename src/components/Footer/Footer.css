@@ -84,9 +84,8 @@ input[type=email]:invalid {
 	width: 20px;
 }
 
-.icon {
-	width: 20px;
-	height: 20px;
+.icon:hover {
+	fill: red;
 }
 
 @media only screen and (max-width: 768px) {
