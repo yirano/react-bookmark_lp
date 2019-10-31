@@ -39,8 +39,6 @@ class Faqs extends React.Component {
 	}
 
 	toggleBody = (id) => {
-		console.log('clicked');
-		console.log(id);
 		this.setState((prevState) => {
 			return this.state.faqs.map((item) => {
 				return item.id === id ? (item.show = !item.show) : (item.show = false);
