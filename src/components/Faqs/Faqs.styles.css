@@ -4,8 +4,15 @@
 	margin: 0 auto;
 }
 
-.faqsContainer.caption {
+.question {
 	color: var(--very-dark-blue);
+}
+
+.answer {
+	margin-top: 25px;
+	color: var(--grayish-blue);
+	line-height: 1.7em;
+	font-size: 0.94em;
 }
 
 .faqsContainer .question:hover {

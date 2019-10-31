@@ -5,7 +5,7 @@ export class FaqsQuestions extends Component {
 	render() {
 		console.log(this.props);
 		return (
-			<div className="faqsContainer caption">
+			<div className="faqsContainer caption question">
 				{this.props.items.map(({ question, id, answer, show }) => {
 					return (
 						<div key={id} className="faqsContent">
