@@ -9,8 +9,7 @@
 	box-sizing: border-box;
 }
 
-main,
-.main {
+main {
 	padding: 0 40px 0 90px;
 	height: 100%;
 	display: flex;
@@ -76,8 +75,7 @@ button:hover {
 }
 
 @media only screen and (max-width: 856px) {
-	main,
-	.main {
+	main {
 		padding: 0 29px;
 		margin: 0;
 	}
