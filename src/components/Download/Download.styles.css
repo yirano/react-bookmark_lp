@@ -1,0 +1,60 @@
+.card-wrapper {
+	display: flex;
+	height: 344px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.cardOne {
+	align-self: flex-start;
+}
+
+.cardTwo {
+	align-self: center;
+}
+
+.cardThree {
+	align-self: flex-end;
+}
+
+.card {
+	min-width: 213px;
+	max-width: 213px;
+	text-align: center;
+	margin: 10px 14px;
+	padding: 29px 0 19px;
+	border-radius: 6px;
+	box-shadow: 0px 5px 10px rgba(199, 198, 238, 0.364);
+}
+
+.card h4 {
+	font-size: 0.83em;
+	letter-spacing: 0.03em;
+}
+
+.card img {
+	width: 37%;
+}
+
+img.bgCircle {
+	width: 100%;
+	padding: 0;
+	margin: 15px 0;
+}
+
+.card button {
+	padding: 11px 26px;
+	border-radius: 4px;
+}
+
+.card-caption {
+	color: var(--grayish-blue);
+	font-size: 0.64em;
+	margin-top: -12px;
+}
+
+@media only screen and (max-width: 856px) {
+	.card-wrapper {
+		height: 100%;
+	}
+}

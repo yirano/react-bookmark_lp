@@ -1,3 +1,125 @@
-.section-2 {
-	display: block;
+@keyframes opac {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.sectionTwoHeader {
+	text-align: center;
+	max-width: 450px;
+	margin: 0 auto;
+}
+
+.slide-link-wrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 1px 0;
+	border-bottom: 1px solid hsla(229, 8%, 60%, 0.383);
+	width: 70%;
+	margin: 30px auto;
+}
+
+.slide-link-wrapper button {
+	padding: 20px 20px;
+	margin: -2px 16px;
+	border: 3px solid transparent;
+	font-size: 0.7em;
+	color: var(--grayish-blue);
+	letter-spacing: 0.1em;
+	background-color: transparent;
+	outline: none;
+	border: 0px solid transparent;
+	border-bottom: 3px solid transparent;
+}
+
+.slide-link-wrapper button:hover {
+	color: var(--soft-red);
+	cursor: pointer;
+}
+
+button.currentSlide {
+	border: 0px solid transparent;
+	border-bottom: 3px solid red;
+}
+
+.slideContainer {
+	display: flex;
+}
+
+.slideContent {
+	justify-content: space-evenly;
+	margin: 0 auto;
+}
+
+.slideImg,
+.slideWordWrap {
+	width: 50%;
+	align-self: center;
+	margin: 0 28px;
+}
+
+.slideImg img,
+.slideWordWrap {
+	animation: opac 200ms ease-in;
+}
+
+.slideImg img {
+	min-width: 46%;
+	max-width: 100%;
+	max-height: auto;
+}
+
+.slideWordWrap {
+	align-self: center;
+}
+
+.slideWordWrap button {
+	height: 37px;
+	width: 89px;
+	box-shadow: 0px 5px 10px rgba(199, 198, 238, 0.664);
+	background-color: var(--soft-blue);
+	color: #fff;
+	border: 2px solid transparent;
+	border-radius: 4px;
+}
+
+.slideWordWrap button:hover {
+	background-color: #fff;
+	color: var(--soft-blue);
+	border: 2px solid var(--soft-blue);
+}
+
+.slideImg .purpleBox {
+	transform: scaleX(-1);
+	left: 0;
+	margin-top: 85px;
+	width: 45vw;
+	min-height: 16em;
+}
+
+@media only screen and (max-width: 856px) {
+	.slide-link-wrapper {
+		flex-direction: column;
+	}
+
+	.slideContent {
+		flex-direction: column;
+	}
+
+	.slideImg,
+	.slideWordWrap {
+		width: 100%;
+		text-align: center;
+		margin: 0;
+	}
+
+	.slideImg img {
+	}
 }

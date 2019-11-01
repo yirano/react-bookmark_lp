@@ -1,9 +1,73 @@
-.main {
-	padding: 0 50px 0 120px;
-}
 :root {
 	--soft-blue: hsl(231, 69%, 60%);
 	--soft-red: hsl(0, 94%, 66%);
 	--grayish-blue: hsl(229, 8%, 60%);
 	--very-dark-blue: hsl(229, 31%, 21%);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.main {
+	padding: 0 40px 0 90px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.section {
+	margin-bottom: 90px;
+}
+
+.sectionTitles {
+	font-weight: 500;
+	font-size: 2.3rem;
+}
+
+.sectionHeader h3 {
+	font-weight: 500;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.sectionHeader .caption {
+	text-align: center;
+}
+
+.caption {
+	color: var(--grayish-blue);
+	font-size: 0.8em;
+	line-height: 1.5em;
+	max-width: 450px;
+	min-width: 300px;
+	margin: 20px auto;
+}
+
+button.purple-bg {
+	background-color: var(--soft-blue);
+	border: 2px solid transparent;
+	color: #fff;
+}
+
+button.purple-bg:hover {
+	border: 2px solid var(--soft-blue);
+	background-color: #fff;
+	color: var(--very-dark-blue);
+}
+
+button.grey-bg:hover {
+	border: 2px solid var(--very-dark-blue);
+	background-color: #fff;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 856px) {
+	.main {
+		padding: 0 30px;
+		margin: 0;
+	}
 }

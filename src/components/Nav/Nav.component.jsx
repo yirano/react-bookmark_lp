@@ -6,7 +6,7 @@ class Nav extends React.Component {
 	constructor() {
 		super();
 		this.state = {
-			displayMenu: true,
+			displayMenu: false,
 			display: 'block'
 		};
 	}
@@ -34,13 +34,31 @@ class Nav extends React.Component {
 				});
 			}
 		});
+		window.addEventListener('load', () => {
+			if (window.innerWidth > 1023) {
+				this.setState((prevState) => {
+					return (prevState.displayMenu = true);
+				});
+			} else {
+				this.setState((prevState) => {
+					return (prevState.displayMenu = false);
+				});
+			}
+		});
 	}
 
 	toggleMenu = () => {
+		const hOne = document.getElementById('hOne');
+		const hTwo = document.getElementById('hTwo');
+		const hThree = document.getElementById('hThree');
+		hOne.classList.toggle('hOneAnimate');
+		hTwo.classList.toggle('hTwoAnimate');
+		hThree.classList.toggle('hThreeAnimate');
 		this.setState((prevState) => {
 			return (prevState.displayMenu = !prevState.displayMenu);
 		});
 	};
+
 	render() {
 		return (
 			<div className="navContainer">
@@ -48,9 +66,9 @@ class Nav extends React.Component {
 					<img src={logo} alt="logo" />
 				</div>
 				<button className="responsive-menu" onClick={this.toggleMenu}>
-					<div className="hOne" />
-					<div className="hTwo" />
-					<div className="hThree" />
+					<div className="hOne" id="hOne" />
+					<div className="hTwo" id="hTwo" />
+					<div className="hThree" id="hThree" />
 				</button>
 				<nav style={this.setStyle()}>
 					<ul>
