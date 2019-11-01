@@ -61,7 +61,7 @@ class Nav extends React.Component {
 
 	render() {
 		return (
-			<div className="navContainer">
+			<header>
 				<div className="logo">
 					<img src={logo} alt="logo" />
 				</div>
@@ -88,7 +88,7 @@ class Nav extends React.Component {
 						</li>
 					</ul>
 				</nav>
-			</div>
+			</header>
 		);
 	}
 }
