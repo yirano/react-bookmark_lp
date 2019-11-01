@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/react-bookmark_lp/static/css/main.cf434893.chunk.css",
+    "main.js": "/react-bookmark_lp/static/js/main.cf00b745.chunk.js",
+    "main.js.map": "/react-bookmark_lp/static/js/main.cf00b745.chunk.js.map",
+    "runtime-main.js": "/react-bookmark_lp/static/js/runtime-main.413f5834.js",
+    "runtime-main.js.map": "/react-bookmark_lp/static/js/runtime-main.413f5834.js.map",
+    "static/js/2.d1626d11.chunk.js": "/react-bookmark_lp/static/js/2.d1626d11.chunk.js",
+    "static/js/2.d1626d11.chunk.js.map": "/react-bookmark_lp/static/js/2.d1626d11.chunk.js.map",
+    "index.html": "/react-bookmark_lp/index.html",
+    "precache-manifest.805ef58bfd018079f804c16fda5e175b.js": "/react-bookmark_lp/precache-manifest.805ef58bfd018079f804c16fda5e175b.js",
+    "service-worker.js": "/react-bookmark_lp/service-worker.js",
+    "static/css/main.cf434893.chunk.css.map": "/react-bookmark_lp/static/css/main.cf434893.chunk.css.map",
+    "static/media/bg-dots.svg": "/react-bookmark_lp/static/media/bg-dots.7c66c472.svg",
+    "static/media/illustration-features-tab-1.svg": "/react-bookmark_lp/static/media/illustration-features-tab-1.25a23733.svg",
+    "static/media/illustration-features-tab-2.svg": "/react-bookmark_lp/static/media/illustration-features-tab-2.11b0ec33.svg",
+    "static/media/illustration-features-tab-3.svg": "/react-bookmark_lp/static/media/illustration-features-tab-3.7f696303.svg",
+    "static/media/illustration-hero.svg": "/react-bookmark_lp/static/media/illustration-hero.dfa0cd82.svg",
+    "static/media/logo-bookmark-footer.svg": "/react-bookmark_lp/static/media/logo-bookmark-footer.7c456d71.svg",
+    "static/media/logo-bookmark.svg": "/react-bookmark_lp/static/media/logo-bookmark.d312eb74.svg",
+    "static/media/logo-chrome.svg": "/react-bookmark_lp/static/media/logo-chrome.3e1ab00b.svg",
+    "static/media/logo-firefox.svg": "/react-bookmark_lp/static/media/logo-firefox.e5023c2b.svg",
+    "static/media/logo-opera.svg": "/react-bookmark_lp/static/media/logo-opera.3d8f7bcc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.413f5834.js",
+    "static/js/2.d1626d11.chunk.js",
+    "static/css/main.cf434893.chunk.css",
+    "static/js/main.cf00b745.chunk.js"
+  ]
+}
