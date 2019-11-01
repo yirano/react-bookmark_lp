@@ -10,4 +10,4 @@ The design was found on [Frontend Mentor](https://www.frontendmentor.io/challeng
 - ReactJS
 
 ## Author
-Tiffany Arellano - [Github](https://github.com/yirano) | [LinkedIn](https://www.linkedin.com/in/yt-arellano/) | [Twitter](https://twitter.com/yiirano) | [repl.it](https://repl.it/@yirano)
+Tiffany Arellano - [Github](https://github.com/yirano) | [LinkedIn](https://www.linkedin.com/in/yt-arellano/) | [Twitter](https://twitter.com/yiirano) 
