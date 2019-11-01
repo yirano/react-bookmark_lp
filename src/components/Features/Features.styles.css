@@ -59,6 +59,11 @@ button.currentSlide {
 	margin: 0 auto;
 }
 
+.slideWordWrap .caption {
+	margin: 20px 0;
+	padding: 0;
+}
+
 .slideImg,
 .slideWordWrap {
 	width: 50%;
