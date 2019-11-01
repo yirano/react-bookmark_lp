@@ -39,10 +39,6 @@ class Faqs extends React.Component {
 	}
 
 	toggleBody = (id) => {
-		const arrow = document.getElementById('arrow');
-		const arrowContainer = document.getElementById('arrowContainer');
-		arrow.classList.toggle('active');
-		arrowContainer.classList.toggle('rotate');
 		this.setState((prevState) => {
 			return this.state.faqs.map((item) => {
 				return item.id === id ? (item.show = !item.show) : (item.show = false);

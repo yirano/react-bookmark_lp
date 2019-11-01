@@ -12,13 +12,13 @@
 	float: right;
 }
 
-.active {
+/* .active {
 	stroke: red;
-}
+} */
 
-.rotate {
+/* .rotate {
 	transform: rotate(-180deg);
-}
+} */
 
 .answer {
 	color: var(--grayish-blue);
