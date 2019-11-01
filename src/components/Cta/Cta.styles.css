@@ -30,8 +30,18 @@
 }
 
 .leftContent {
+	display: flex;
+	flex-flow: column;
 	width: 50%;
-	align-self: flex-start;
+	align-self: center;
+}
+
+.leftContentWrap {
+	align-self: center;
+}
+
+.leftContent .caption {
+	margin: 0 0 20px 0;
 }
 
 .rightContent {
