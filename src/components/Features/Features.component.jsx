@@ -53,7 +53,7 @@ class Features extends React.Component {
 
 	render() {
 		return (
-			<div className="section-2 section">
+			<section className="section-2">
 				<div className="sectionHeader">
 					<h3>Features</h3>
 					<p className="caption">
@@ -63,7 +63,7 @@ class Features extends React.Component {
 				</div>
 				<SlideButtons item={this.state.slides} onClick={this.displaySlides} />
 				<SlideContent content={this.state.slides} />
-			</div>
+			</section>
 		);
 	}
 }

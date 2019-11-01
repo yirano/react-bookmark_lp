@@ -12,14 +12,6 @@
 	float: right;
 }
 
-/* .active {
-	stroke: red;
-} */
-
-/* .rotate {
-	transform: rotate(-180deg);
-} */
-
 .answer {
 	color: var(--grayish-blue);
 	line-height: 1.7em;

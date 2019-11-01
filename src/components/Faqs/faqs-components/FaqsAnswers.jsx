@@ -1,16 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../Faqs.styles.css';
 
-export class FaqsAnswers extends Component {
-	render() {
-		return (
-			<div className="answer toggleAnswers">
-				{this.props.items.map(({ show, id, answer }) => {
-					return show ? <p key={id}>{answer}</p> : null;
-				})}
-			</div>
-		);
-	}
+export default function FaqsAnswers(props) {
+	return (
+		<div className="answer toggleAnswers">
+			{props.items.map(({ show, id, answer }) => {
+				return show ? <p key={id}>{answer}</p> : null;
+			})}
+		</div>
+	);
 }
-
-export default FaqsAnswers;

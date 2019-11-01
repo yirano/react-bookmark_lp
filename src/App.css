@@ -9,6 +9,7 @@
 	box-sizing: border-box;
 }
 
+main,
 .main {
 	padding: 0 40px 0 90px;
 	height: 100%;
@@ -16,7 +17,7 @@
 	flex-direction: column;
 }
 
-.section {
+section {
 	margin-bottom: 90px;
 }
 
@@ -44,9 +45,18 @@
 	margin: 20px auto;
 }
 
+button {
+	font-weight: 500;
+	font-size: 0.6em;
+	padding: 12px 10px;
+	border: 2px solid transparent;
+	border-radius: 3px;
+	box-shadow: 0px 5px 10px rgba(199, 198, 238, 0.664);
+	letter-spacing: 0.1em;
+}
+
 button.purple-bg {
 	background-color: var(--soft-blue);
-	border: 2px solid transparent;
 	color: #fff;
 }
 
@@ -66,6 +76,7 @@ button:hover {
 }
 
 @media only screen and (max-width: 856px) {
+	main,
 	.main {
 		padding: 0 29px;
 		margin: 0;

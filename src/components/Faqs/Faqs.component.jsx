@@ -47,7 +47,7 @@ class Faqs extends React.Component {
 	};
 	render() {
 		return (
-			<div className="section-4 section">
+			<section>
 				<div className="sectionHeader">
 					<h3>Frequently Asked Questions</h3>
 					<p className="caption">
@@ -56,7 +56,7 @@ class Faqs extends React.Component {
 					</p>
 				</div>
 				<FaqsQuestions key={this.state.faqs.id} items={this.state.faqs} onClick={this.toggleBody} />
-			</div>
+			</section>
 		);
 	}
 }
