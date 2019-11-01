@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-bookmark_lp/static/css/main.574b60d2.chunk.css",
+    "main.css": "/react-bookmark_lp/static/css/main.4d083871.chunk.css",
     "main.js": "/react-bookmark_lp/static/js/main.f88bb4b0.chunk.js",
     "main.js.map": "/react-bookmark_lp/static/js/main.f88bb4b0.chunk.js.map",
     "runtime-main.js": "/react-bookmark_lp/static/js/runtime-main.413f5834.js",
@@ -8,9 +8,9 @@
     "static/js/2.d1626d11.chunk.js": "/react-bookmark_lp/static/js/2.d1626d11.chunk.js",
     "static/js/2.d1626d11.chunk.js.map": "/react-bookmark_lp/static/js/2.d1626d11.chunk.js.map",
     "index.html": "/react-bookmark_lp/index.html",
-    "precache-manifest.e1120f48c9e44d18ab58f8dd6ddac338.js": "/react-bookmark_lp/precache-manifest.e1120f48c9e44d18ab58f8dd6ddac338.js",
+    "precache-manifest.a3af7c5b25d6e51019e11238156df601.js": "/react-bookmark_lp/precache-manifest.a3af7c5b25d6e51019e11238156df601.js",
     "service-worker.js": "/react-bookmark_lp/service-worker.js",
-    "static/css/main.574b60d2.chunk.css.map": "/react-bookmark_lp/static/css/main.574b60d2.chunk.css.map",
+    "static/css/main.4d083871.chunk.css.map": "/react-bookmark_lp/static/css/main.4d083871.chunk.css.map",
     "static/media/bg-dots.svg": "/react-bookmark_lp/static/media/bg-dots.7c66c472.svg",
     "static/media/illustration-features-tab-1.svg": "/react-bookmark_lp/static/media/illustration-features-tab-1.25a23733.svg",
     "static/media/illustration-features-tab-2.svg": "/react-bookmark_lp/static/media/illustration-features-tab-2.11b0ec33.svg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.413f5834.js",
     "static/js/2.d1626d11.chunk.js",
-    "static/css/main.574b60d2.chunk.css",
+    "static/css/main.4d083871.chunk.css",
     "static/js/main.f88bb4b0.chunk.js"
   ]
 }
