@@ -31,6 +31,7 @@ footer {
 	border: 2px solid var(--soft-red);
 	border-radius: 4px;
 	margin-left: 20px;
+	box-shadow: none;
 }
 
 input[type=email] {

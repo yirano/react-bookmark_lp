@@ -41,6 +41,7 @@ section:first-of-type h1 {
 .rightContent {
 	width: 50%;
 	display: flex;
+	justify-content: center;
 }
 
 .rightContent img {
